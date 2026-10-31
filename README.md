@@ -1,21 +1,13 @@
 # GuardLatice on GitHub
 
-One starting point for the organization: navigation, contribution and community guidance.
+Find your starting point, ask a question, or suggest an improvement.
 
 **[Start here / Commencer](START_HERE.md)** · [Sciences](https://github.com/GuardLatice/sciences) · [Discussions](https://github.com/GuardLatice/.github/discussions)
 
-## Find what you need
+## Help and contributions
 
-| I want to… | Open |
-|---|---|
-| Explore the tools or research | [Start here](START_HERE.md) |
-| Ask for help | [Support](SUPPORT.md) |
-| Submit a focused change | [Contributing](CONTRIBUTING.md) |
-| Report a vulnerability | [Private security reporting](SECURITY.md) |
-| Understand reuse rights | [Licensing boundaries](LICENSING.md) |
+Use [Discussions](https://github.com/GuardLatice/.github/discussions) for questions and integration ideas. Use [issues](https://github.com/GuardLatice/.github/issues) for a specific documentation problem. Report security vulnerabilities through the [private channel](SECURITY.md).
 
-## How we work
+This repository contains project information and contribution guidance. It does not distribute GuardLatice software or research manuscripts.
 
-[Simple to start, explicit about guarantees](DESIGN_PRINCIPLES.md). Respectful discussion and accurate attribution are defined in the [community conduct rules](CODE_OF_CONDUCT.md).
-
-This repository contains organization guidance, not the industrial compiler or a downloadable SDK. Repository-specific instructions and licenses define the scope of each component.
+[Contribution guide](CONTRIBUTING.md) · [Support](SUPPORT.md) · [Community conduct](CODE_OF_CONDUCT.md) · [Design principles](DESIGN_PRINCIPLES.md) · [Licensing](LICENSING.md)
