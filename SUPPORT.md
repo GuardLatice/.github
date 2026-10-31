@@ -2,6 +2,8 @@
 
 Ask in English or French. Choose the route that fits your question.
 
+[Read existing discussions](https://github.com/orgs/GuardLatice/discussions) without an account. Starting a discussion, opening an issue or replying requires a GitHub account.
+
 | You need | Start here |
 |---|---|
 | Help with a page or example | [Ask a question](https://github.com/GuardLatice/.github/discussions/new?category=help) |
@@ -25,6 +27,8 @@ Community help has no guaranteed response time. Commercial support applies only 
 
 <details>
 <summary>En français</summary>
+
+Vous pouvez lire les discussions sans compte. Pour publier une question ou une réponse, connectez-vous à GitHub.
 
 Une question sur une page : **Help**. Un projet à raccorder : **Integrations**. Une question scientifique : **Research**. Pour une intégration, indiquez simplement le besoin, l'environnement et la contrainte principale. Aucun fichier ni code n'est demandé. Les vulnérabilités se signalent en privé.
 
