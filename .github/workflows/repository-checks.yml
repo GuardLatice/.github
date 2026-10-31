@@ -1,0 +1,76 @@
+name: Repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Repository checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the proposed revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Check public-file hygiene and local references
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, re, subprocess, sys
+          root = pathlib.Path.cwd().resolve()
+          paths = [p for p in subprocess.check_output(['git','ls-files','-z']).decode().split('\0') if p]
+          failures = []
+          approvals = {}
+          approval_file = root / 'PUBLICATION_ALLOWLIST.json'
+          if approval_file.exists():
+              document = json.loads(approval_file.read_text(encoding='utf-8'))
+              if document.get('schema_version') != 1 or not isinstance(document.get('artifacts'), list):
+                  raise SystemExit('Invalid publication approval manifest')
+              for item in document['artifacts']:
+                  relative, digest = item['path'], item['sha256']
+                  if relative in approvals or relative not in paths or not re.fullmatch('[a-f0-9]{64}', digest):
+                      raise SystemExit('Invalid or duplicate publication approval')
+                  approvals[relative] = digest
+          restricted = {'.pdf','.zip','.tar','.gz','.7z','.docx','.pptx','.exe','.dll','.so','.pem','.key','.p12','.pfx'}
+          for name in paths:
+              p = root / name
+              if p.is_symlink():
+                  failures.append(name + ': symlink requires a separate review'); continue
+              if p.name == '.env' or p.name.startswith('.env.') or p.name in {'id_rsa','id_ed25519'}:
+                  failures.append(name + ': credential/configuration filename is not allowed'); continue
+              data = p.read_bytes()
+              if p.suffix.lower() in restricted:
+                  if approvals.get(name) != hashlib.sha256(data).hexdigest():
+                      failures.append(name + ': exact publication approval is missing')
+              if name in approvals and approvals[name] != hashlib.sha256(data).hexdigest():
+                  failures.append(name + ': approved digest does not match')
+              if re.search(rb'-----BEGIN [A-Z ]*PRIVATE KEY-----', data):
+                  failures.append(name + ': private-key marker detected')
+              if p.suffix == '.json':
+                  try: json.loads(data)
+                  except (UnicodeError, ValueError): failures.append(name + ': invalid JSON')
+              if p.suffix == '.md':
+                  text = data.decode('utf-8')
+                  for target in re.findall(r'\[[^\]]*\]\(([^\s)]+)\)', text):
+                      if target.startswith(('#','https://','http://','mailto:')): continue
+                      local = target.split('#',1)[0].split('?',1)[0]
+                      if not local: continue
+                      resolved = (p.parent / local).resolve()
+                      if not resolved.is_relative_to(root) or not resolved.exists():
+                          failures.append(name + ': missing/out-of-scope local link ' + local)
+          if failures:
+              print('\n'.join(failures)); sys.exit(1)
+          print(f'PASS: {len(paths)} tracked files; hygiene and local links only, not a security audit or scientific validation.')
+          PY
