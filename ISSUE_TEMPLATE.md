@@ -1,21 +1,17 @@
-<!-- English and French are welcome. Keep the report focused; remove irrelevant sections. -->
+**This report is public. English and French are welcome.**
 
-**This report is public.** Do not attach credentials, customer data, private manuscripts or other confidential material. Public branches and attachments are already disclosures; automated checks cannot undo an upload.
+For a question, use [Help](https://github.com/GuardLatice/.github/discussions/new?category=help). For an integration, use [Integrations](https://github.com/GuardLatice/.github/discussions/new?category=integrations). Report security vulnerabilities [privately](https://github.com/GuardLatice/.github/security/advisories/new).
 
-For an exploitable vulnerability, use [private security reporting](https://github.com/GuardLatice/.github/security/advisories/new) instead. For an open-ended question or proposal, use [Discussions](https://github.com/GuardLatice/.github/discussions).
+## Page or reference
 
-## Goal and reference
+Which page, public result or section needs attention?
 
-What were you trying to do? Identify the component, release or commit. For a scientific correction, give the exact public work and section.
+## Problem
 
-## Reproduction
+What is unclear or incorrect? Describe what you expected and what you found.
 
-Give the smallest steps or argument, with the relevant environment. Use synthetic or redistributable data.
+## Suggested improvement
 
-## Expected and observed result
+Explain the correction, or the information you were looking for. For a research correction, state the reasoning without changing the original assumptions.
 
-Explain the difference. Include only redacted logs or public evidence.
-
-## Limits
-
-State what you checked and what you could not check. Do not silently change a scientific model or experiment to obtain a result.
+No attachment is needed. Do not post product source code, manuscripts, PDFs, TeX files, archives, credentials or customer information.
