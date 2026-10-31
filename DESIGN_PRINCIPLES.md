@@ -1,13 +1,21 @@
-# Simple to start, explicit about guarantees
+# Design principles
 
-A new user should reach a useful result without learning every internal subsystem.
+Help people finish a useful task without making them learn the whole platform first.
 
-- One clear primary action and one canonical getting-started path per use case.
-- Show prerequisites, exact version, expected result and recovery steps together.
-- Offer documented, versioned defaults; keep the selected primitives and assumptions inspectable.
-- Never silently weaken a protection or hide a consequential side effect to make a demo succeed.
-- Use actionable errors. Claim that no effect occurred only when the system can establish that fact.
-- Separate ordinary use from advanced settings and research detail.
-- Do not create repositories, services or configuration options without a maintenance reason.
+## A clear next step
 
-A first local result in under ten minutes on a supported environment is a usability target to measure, not a validated performance claim. Test with people outside the development team and record where they need help.
+Give each page one main action. Keep examples, requirements and expected results together. Make advanced detail easy to find without putting it in everyone's way.
+
+## Useful language
+
+Name the task, explain the result and show how to recover from an error. Prefer specific statements over slogans. Keep terminology consistent across the application, documentation and support.
+
+## Informed choices
+
+Explain the selected protection and its limits. Never weaken it silently to make an example succeed. Describe a completed effect only when the system can establish that it occurred.
+
+Keep paid options optional and clearly identified. State material conditions before a commitment. Do not use invented testimonials, false urgency, hidden charges or misleading buttons.
+
+## Test the journey
+
+Observe people using a supported example without assistance. Record where they hesitate or get stuck. Improve those steps before adding more settings, pages or services.
