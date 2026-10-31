@@ -2,22 +2,14 @@
 
 **Understand. Try. Verify.**
 
-GuardLatice develops native infrastructure for secure data, programmable computation, cryptography, access control, and distributed consensus.
+Native tools for controlled computation and secure data.
 
-Our work emphasizes explicit contracts, inspectable execution, measurable evidence, and interfaces that can be independently reviewed.
+### [Start here](https://github.com/GuardLatice/.github/blob/main/START_HERE.md)
 
-## Areas of work
+[Documentation](https://guardlatice.com/pages/documentation.html) · [GuardLatice Sciences](https://github.com/GuardLatice/sciences) · [Website](https://guardlatice.com/)
 
-- **GL-C:** native, programmable interfaces for controlled computation.
-- **Access governance:** policy specification, composition, and enforcement.
-- **Cryptography:** composable operations and rigorous integration contracts.
-- **Distributed systems:** coordination, consensus, and data-processing foundations.
-- **Security engineering:** validation, testing, and reproducible results.
+Explore one use case, inspect its assumptions, and verify the result. Research, implementation maturity and independent evaluation are stated separately.
 
-## Explore GuardLatice
+[Contribute](https://github.com/GuardLatice/.github/blob/main/CONTRIBUTING.md) · [Get help](https://github.com/GuardLatice/.github/blob/main/SUPPORT.md) · [Report a vulnerability privately](https://github.com/GuardLatice/.github/security/advisories/new)
 
-- [Official website](https://guardlatice.com)
-- [Documentation](https://guardlatice.com/pages/documentation.html)
-- [GL-C Studio](https://guardlatice.com/product/lab/run.cgi?ui=compute)
-
-**Publication policy:** Public repositories contain only material intentionally released for external viewing. Private source code, research candidates, credentials, and infrastructure settings are not published here.
+English and French are welcome.
