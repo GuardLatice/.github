@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/350513315?v=4" width="72" height="72" alt="GuardLatice symbol">
+  <img src="https://avatars.githubusercontent.com/u/350513315?v=4" width="72" height="72" alt="GuardLatice">
 </p>
 
 <h1 align="center">GuardLatice</h1>
 
 <p align="center"><strong>Understand. Try. Verify.</strong><br>
-Native tools for controlled computation and secure data.</p>
+Access control, cryptography and controlled computation.</p>
 
 <p align="center">
   <a href="https://github.com/GuardLatice/.github/blob/main/START_HERE.md"><strong>Start here / Commencer</strong></a>
@@ -15,21 +15,14 @@ Native tools for controlled computation and secure data.</p>
 
 ---
 
-### Choose your path
+## Explore GuardLatice
 
-| Your goal | Your next step |
-|---|---|
-| Explore a use case | [Open the Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute) with synthetic data |
-| Understand an interface | [Read the documentation](https://guardlatice.com/pages/documentation.html) |
-| Examine the research | [Explore GuardLatice Sciences](https://github.com/GuardLatice/sciences) |
-| Ask a question or contribute | [Join the discussion](https://github.com/GuardLatice/.github/discussions) |
+Start with an example in the [Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute), read the [documentation](https://guardlatice.com/pages/documentation.html), or visit [GuardLatice Sciences](https://github.com/GuardLatice/sciences) for the research program.
 
-### Clear claims. Inspectable evidence.
+Working on an integration? [Tell us what you are building](https://github.com/GuardLatice/.github/discussions). Describe the use case without sharing confidential information.
 
-For each capability, examine its version, assumptions, expected result and limits. Publication status, implementation maturity and independent evaluation are separate.
+These repositories currently provide project information and documentation. Use test data in public examples.
 
-**A demonstration is not a production guarantee.** Never submit secrets, customer data or confidential material to public examples or discussions.
+[Get help](https://github.com/GuardLatice/.github/blob/main/SUPPORT.md) · [Contribute](https://github.com/GuardLatice/.github/blob/main/CONTRIBUTING.md) · [Report a vulnerability privately](https://github.com/GuardLatice/.github/security/advisories/new) · [Website](https://guardlatice.com/)
 
-[Contribute](https://github.com/GuardLatice/.github/blob/main/CONTRIBUTING.md) · [Get help](https://github.com/GuardLatice/.github/blob/main/SUPPORT.md) · [Report a vulnerability privately](https://github.com/GuardLatice/.github/security/advisories/new) · [Website](https://guardlatice.com/)
-
-<sub>English and French are welcome. Public visibility does not replace an explicit component license.</sub>
+<sub>Questions and contributions are welcome in English and French.</sub>
