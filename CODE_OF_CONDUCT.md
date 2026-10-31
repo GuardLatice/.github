@@ -1,9 +1,9 @@
 # Community conduct
 
-Treat people with respect. Critique claims, code and evidence, not personal characteristics.
+Treat people with respect. Discuss the work, not personal characteristics.
 
-Welcome good-faith questions, independent reproduction, negative results and corrections. Credit contributors accurately. Do not harass, threaten, discriminate, publish personal information, spam or make unsupported accusations.
+Questions, corrections and negative results are welcome. Credit other people's contributions. Harassment, threats, discrimination, disclosure of private information and spam have no place here.
 
-Use public discussions for ordinary technical disagreement. For a sensitive conduct concern, contact the repository owner privately through an existing agreed channel; never post personal or confidential details in a public issue. Maintainers may remove harmful content and restrict participation. Serious abuse may also be reported through GitHub reporting tools.
+Use public discussions for ordinary technical disagreement. Raise sensitive conduct concerns privately with a maintainer through an agreed channel, or use GitHub's reporting tools. Do not post personal details in a public issue.
 
-Moderation decisions should be proportionate and may be reviewed by the organization owner. No paid support or response-time commitment is created by this document.
+Maintainers may remove harmful content or restrict participation. Moderation should be proportionate; the organization owner can review a decision.

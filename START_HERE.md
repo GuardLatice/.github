@@ -1,25 +1,36 @@
 # Start here / Commencer
 
-GuardLatice develops native tools for controlled computation and secure data.
+Explore GuardLatice through an example, an interface or a research topic.
 
-## Choose one path
+## Try an example
 
-| Your goal | Start with |
-|---|---|
-| Explore the tools | [GuardLatice Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute) |
-| Understand an interface | [Documentation](https://guardlatice.com/pages/documentation.html) |
-| Examine research | [GuardLatice Sciences](https://github.com/GuardLatice/sciences) |
+Open the [GuardLatice Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute). Choose one example and compare the result with its description. Use test data, not credentials, private keys or customer information.
 
-Use synthetic data in public demonstrations. Do not upload credentials, private keys, customer data or confidential manuscripts. A demonstration is not evidence of production readiness.
+Lab examples are demonstrations, not production configurations. Check the version, requirements and limitations before using an approach in your own environment.
 
-## Status and verification
+## Find the right information
 
-Check the exact version, prerequisites, expected result and limitations of the capability you use. A paper, implementation, test run and independent evaluation are different forms of evidence. No organization-wide certification is implied.
+The [documentation](https://guardlatice.com/pages/documentation.html) covers interfaces and usage. [GuardLatice Sciences](https://github.com/GuardLatice/sciences) is the entry point for the research program and publication information.
 
-Installation commands belong to a specific reviewed release. This page does not advertise an unpublished SDK or invent a universal install command.
+This GitHub workspace currently provides documentation, not software downloads or installation packages.
 
-## Get help
+## Bring a use case
 
-Use an issue in the relevant repository for a reproducible defect, documentation question or proposal. See [Support](SUPPORT.md). For a suspected vulnerability, use the [private reporting route](SECURITY.md), not a public issue.
+[Browse community discussions](https://github.com/orgs/GuardLatice/discussions) without an account. Posting a question or reply requires signing in to GitHub.
 
-Questions and contributions in English or French are welcome.
+[Describe your use case](https://github.com/GuardLatice/.github/discussions/new?category=integrations): the task, your environment and the constraint that matters most. A few sentences are enough; no code or file upload is needed. Keep confidential details out of the conversation. For a specific problem, follow the [reporting guide](SUPPORT.md).
+
+<details>
+<summary>En français</summary>
+
+Commencez par un exemple dans le Lab, consultez la documentation pour comprendre une interface, ou explorez les travaux de GuardLatice Sciences.
+
+Utilisez des données de test. Les exemples ne sont pas des configurations de production ; leurs conditions d'utilisation et leurs limites restent à examiner.
+
+Les discussions publiques se consultent sans compte ; publier un message nécessite une connexion GitHub.
+
+Pour étudier une intégration, présentez le besoin, l’environnement et la contrainte principale dans [Integrations](https://github.com/GuardLatice/.github/discussions/new?category=integrations), sans fichier ni donnée confidentielle. Cet espace GitHub propose actuellement de la documentation, pas de logiciels à télécharger.
+
+</details>
+
+[Overview](README.md) · [Get help](SUPPORT.md) · [Community](https://github.com/GuardLatice/.github/discussions/3) · [Private security reporting](SECURITY.md)

@@ -1,18 +1,18 @@
-## Purpose
+## What changes for the reader?
 
-What user problem does this change solve?
+Describe the problem and the improvement.
 
-## Verification
+## Checks
 
-Exact commands, environment and results. Explicitly list checks not run.
+List the pages and links checked, and anything still needing review.
 
-## Boundaries
+## Before submission
 
-- [ ] No credentials, customer data or unapproved manuscript is included.
-- [ ] Publication rights and applicable license have been checked.
-- [ ] Claims, limitations and affected versions remain accurate.
-- [ ] The simplest supported user path remains documented.
+- [ ] Changes are limited to presentation, documentation or approved repository configuration.
+- [ ] No product source, manuscript, PDF, TeX file, archive, secret or customer data is included.
+- [ ] The wording reflects what is available, without unsupported guarantees.
+- [ ] Relevant links and navigation still work.
 
-## Risk and rollback
+## Impact
 
-State compatibility changes, possible effects and recovery steps.
+Note any affected pages or instructions. Explain any special recovery steps; otherwise the documentation change can be reverted.
