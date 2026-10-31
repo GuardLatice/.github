@@ -1,42 +1,32 @@
 # Start here / Commencer
 
-Understand one use case. Explore it with safe data. Check what the result actually establishes.
+Explore GuardLatice through an example, an interface or a research topic.
 
-[Overview](README.md) · [Documentation](https://guardlatice.com/pages/documentation.html) · [Sciences](https://github.com/GuardLatice/sciences) · [Get help](SUPPORT.md)
+## Try an example
 
-## Choose one path
+Open the [GuardLatice Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute). Choose one example and compare the result with its description. Use test data, not credentials, private keys or customer information.
 
-| Your goal | Open | Look for |
-|---|---|---|
-| Explore the tools | [GuardLatice Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute) | A bounded example and its expected result |
-| Understand an interface | [Documentation](https://guardlatice.com/pages/documentation.html) | Inputs, outputs, errors and supported versions |
-| Examine a scientific result | [GuardLatice Sciences](https://github.com/GuardLatice/sciences) | The work, its assumptions and its artifact version |
+Lab examples are demonstrations, not production configurations. Check the version, requirements and limitations before using an approach in your own environment.
 
-## Before an experiment
+## Find the right information
 
-Use synthetic or explicitly redistributable data. Keep credentials, private keys, customer records and confidential manuscripts out of public demonstrations, branches and attachments.
+The [documentation](https://guardlatice.com/pages/documentation.html) covers interfaces and usage. [GuardLatice Sciences](https://github.com/GuardLatice/sciences) is the entry point for the research program and publication information.
 
-Record the version, prerequisites, steps and expected result. State what you checked and what you could not check. A successful demonstration does not establish production readiness or organization-wide certification.
+This GitHub workspace currently provides documentation, not software downloads or installation packages.
 
-## Installing a component
+## Bring a use case
 
-Use only instructions attached to a specific reviewed release. This page does not invent a universal install command or advertise an unpublished package. Check the component license before use or redistribution.
-
-## Need a hand?
-
-For a question, use [Discussions](https://github.com/GuardLatice/.github/discussions). For a reproducible defect, open an issue in the affected repository. For a suspected exploitable vulnerability, use [private reporting](SECURITY.md), not a public issue.
+[Start a discussion](https://github.com/GuardLatice/.github/discussions) about the task you need to accomplish and your environment. Keep confidential details out of the conversation. For a specific problem, follow the [reporting guide](SUPPORT.md).
 
 <details>
-<summary>Commencer en français</summary>
+<summary>En français</summary>
 
-Choisis un seul parcours : un exemple dans le Lab, un contrat dans la documentation ou un travail dans Sciences.
+Commence par un exemple dans le Lab, consulte la documentation pour comprendre une interface, ou explore les travaux de GuardLatice Sciences.
 
-Utilise des données de test, relève la version et compare le résultat obtenu au résultat annoncé. Vérifie les hypothèses et les limites avant toute utilisation réelle.
+Utilise des données de test. Les exemples ne sont pas des configurations de production ; leurs conditions d'utilisation et leurs limites restent à examiner.
 
-Pose les questions générales dans Discussions. Pour un défaut reproductible, indique les étapes et le dépôt concerné. Les vulnérabilités doivent être signalées en privé.
+Pour étudier une intégration, présente ton besoin dans Discussions, sans données confidentielles. Cet espace GitHub propose actuellement de la documentation, pas de logiciels à télécharger.
 
 </details>
 
----
-
-**Understand. Try. Verify.** English and French are welcome.
+[Overview](README.md) · [Get help](SUPPORT.md) · [Private security reporting](SECURITY.md)
