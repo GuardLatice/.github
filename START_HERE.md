@@ -16,14 +16,18 @@ This GitHub workspace currently provides documentation, not software downloads o
 
 ## Bring a use case
 
+[Browse community discussions](https://github.com/orgs/GuardLatice/discussions) without an account. Posting a question or reply requires signing in to GitHub.
+
 [Describe your use case](https://github.com/GuardLatice/.github/discussions/new?category=integrations): the task, your environment and the constraint that matters most. A few sentences are enough; no code or file upload is needed. Keep confidential details out of the conversation. For a specific problem, follow the [reporting guide](SUPPORT.md).
 
 <details>
 <summary>En français</summary>
 
-Commence par un exemple dans le Lab, consulte la documentation pour comprendre une interface, ou explore les travaux de GuardLatice Sciences.
+Commencez par un exemple dans le Lab, consultez la documentation pour comprendre une interface, ou explorez les travaux de GuardLatice Sciences.
 
-Utilise des données de test. Les exemples ne sont pas des configurations de production ; leurs conditions d'utilisation et leurs limites restent à examiner.
+Utilisez des données de test. Les exemples ne sont pas des configurations de production ; leurs conditions d'utilisation et leurs limites restent à examiner.
+
+Les discussions publiques se consultent sans compte ; publier un message nécessite une connexion GitHub.
 
 Pour étudier une intégration, présentez le besoin, l’environnement et la contrainte principale dans [Integrations](https://github.com/GuardLatice/.github/discussions/new?category=integrations), sans fichier ni donnée confidentielle. Cet espace GitHub propose actuellement de la documentation, pas de logiciels à télécharger.
 
