@@ -19,10 +19,10 @@ Access control, cryptography and controlled computation.</p>
 
 Start with an example in the [Lab](https://guardlatice.com/product/lab/run.cgi?ui=compute), read the [documentation](https://guardlatice.com/pages/documentation.html), or visit [GuardLatice Sciences](https://github.com/GuardLatice/sciences) for the research program.
 
-Working on an integration? [Tell us what you are building](https://github.com/GuardLatice/.github/discussions). Describe the use case without sharing confidential information.
+Working on an integration? [Tell us what you are building](https://github.com/GuardLatice/.github/discussions/new?category=integrations). Describe the use case without sharing confidential information.
 
 These repositories currently provide project information and documentation. Use test data in public examples.
 
-[Get help](https://github.com/GuardLatice/.github/blob/main/SUPPORT.md) · [Contribute](https://github.com/GuardLatice/.github/blob/main/CONTRIBUTING.md) · [Report a vulnerability privately](https://github.com/GuardLatice/.github/security/advisories/new) · [Website](https://guardlatice.com/)
+[Get help](https://github.com/GuardLatice/.github/blob/main/SUPPORT.md) · [Community](https://github.com/GuardLatice/.github/discussions/3) · [Contribute](https://github.com/GuardLatice/.github/blob/main/CONTRIBUTING.md) · [Report a vulnerability privately](https://github.com/GuardLatice/.github/security/advisories/new) · [Website](https://guardlatice.com/)
 
 <sub>Questions and contributions are welcome in English and French.</sub>
