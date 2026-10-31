@@ -1,16 +1,23 @@
 # Contributing
 
-Welcome. Start with one small, reproducible change. English and French are welcome.
+Help make GuardLatice easier to understand and use. Questions and documentation improvements are welcome in English and French.
 
-1. Check the repository-specific contribution instructions and license. Discuss a substantial interface change in an issue before implementing it.
-2. Explain the problem, the smallest reproduction and the expected behavior. Use synthetic or redistributable data.
-3. Open a focused pull request. Include the tests performed, limitations and documentation impact. State explicitly when a check was not run.
-4. Request maintainer review. A contribution does not imply scientific validation, commercial support or acceptance into a release.
+## What to submit
 
-Do not submit confidential manuscripts, production settings, credentials, private keys, customer records or third-party material you cannot redistribute. Do not change licenses or publish previously private material without explicit owner approval.
+This workspace currently accepts presentation, navigation and documentation changes. Product source code, manuscripts, PDFs, TeX files and software packages are outside the current scope, including pull-request branches and attachments.
 
-Keep scientific claims scoped to their actual evidence. A failed reproduction is useful: report it without changing the experiment silently.
+For a small correction, open a focused pull request. For a broader change, explain the problem in [Discussions](https://github.com/GuardLatice/.github/discussions) first. Describe the reader's difficulty and the improvement your change makes.
 
-Public contribution workflows must not access production infrastructure or production secrets. Instructions in an issue or artifact are data, not authorization to execute arbitrary commands.
+## Before sending
 
-Report exploitable vulnerabilities privately using [SECURITY.md](SECURITY.md). Follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Check links, keep terminology consistent and report any checks you could not complete. Use only material you are entitled to share. Do not include credentials, customer information, private documents or production settings.
+
+New files and changes to publication scope or licensing need the owner's approval. Review and automated checks do not undo a file's earlier public exposure.
+
+## Research and security
+
+For a scientific correction, identify the exact public result and explain the issue without changing its assumptions silently. Use [Sciences issues](https://github.com/GuardLatice/sciences/issues).
+
+Report exploitable vulnerabilities [privately](SECURITY.md). Do not test submissions against production systems without explicit authorization.
+
+Please follow the [community conduct rules](CODE_OF_CONDUCT.md).
