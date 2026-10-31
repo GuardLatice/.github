@@ -16,7 +16,7 @@ This GitHub workspace currently provides documentation, not software downloads o
 
 ## Bring a use case
 
-[Start a discussion](https://github.com/GuardLatice/.github/discussions) about the task you need to accomplish and your environment. Keep confidential details out of the conversation. For a specific problem, follow the [reporting guide](SUPPORT.md).
+[Describe your use case](https://github.com/GuardLatice/.github/discussions/new?category=integrations): the task, your environment and the constraint that matters most. A few sentences are enough; no code or file upload is needed. Keep confidential details out of the conversation. For a specific problem, follow the [reporting guide](SUPPORT.md).
 
 <details>
 <summary>En français</summary>
@@ -25,8 +25,8 @@ Commence par un exemple dans le Lab, consulte la documentation pour comprendre u
 
 Utilise des données de test. Les exemples ne sont pas des configurations de production ; leurs conditions d'utilisation et leurs limites restent à examiner.
 
-Pour étudier une intégration, présente ton besoin dans Discussions, sans données confidentielles. Cet espace GitHub propose actuellement de la documentation, pas de logiciels à télécharger.
+Pour étudier une intégration, présentez le besoin, l’environnement et la contrainte principale dans [Integrations](https://github.com/GuardLatice/.github/discussions/new?category=integrations), sans fichier ni donnée confidentielle. Cet espace GitHub propose actuellement de la documentation, pas de logiciels à télécharger.
 
 </details>
 
-[Overview](README.md) · [Get help](SUPPORT.md) · [Private security reporting](SECURITY.md)
+[Overview](README.md) · [Get help](SUPPORT.md) · [Community](https://github.com/GuardLatice/.github/discussions/3) · [Private security reporting](SECURITY.md)
